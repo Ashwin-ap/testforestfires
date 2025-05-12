@@ -1,0 +1,12 @@
+prefix=d:/DS/PRACTICE/LINEAR_REGRESSION/VENV/Library
+exec_prefix=d:/DS/PRACTICE/LINEAR_REGRESSION/VENV/Library
+libdir=d:/DS/PRACTICE/LINEAR_REGRESSION/VENV/Library/lib
+includedir=d:/DS/PRACTICE/LINEAR_REGRESSION/VENV/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 
